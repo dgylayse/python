@@ -1,4 +1,4 @@
-#Pythom ile kaplumbağa grafik tasarım
+# 1- Pythom ile kaplumbağa grafik tasarım
 
 from turtle import *
 from random import randint
