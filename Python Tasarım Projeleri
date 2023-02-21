@@ -1,4 +1,5 @@
-# 1- Pythom ile kaplumbağa grafik tasarım
+# Pythom ile kaplumbağa grafik tasarım
+# 1-
 
 from turtle import *
 from random import randint
@@ -15,3 +16,28 @@ while x < 500:
     fd(50 + x)
     rt(90.911)
     x = x + 1
+
+# 2- 
+
+import turtle as t
+import colorsys
+
+t.bgcolor("black")
+t.tracer(100)
+h = 1
+t.pensize(4)
+def draw(angle, n):
+    t.circle(60 + n,90)
+    t.left(angle)
+    t.circle(60 + n,90)
+t.goto(-30,0)
+for i in range(150):
+    c = colorsys.hsv_to_rgb(h,1,0.8)
+    h += 0.008
+    t.pencolor(c)
+
+    draw(151,i)
+    draw(59,i)
+    draw(151,i)
+    draw(59,i)
+t.done()
