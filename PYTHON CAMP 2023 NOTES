@@ -1,0 +1,29 @@
+# 1. GÜN ÖDEVLERİ
+
+# SORU 1 : Python'da Veri Tiplerini araştırınız, her bir veri tipi için kendi cümlelerinizle açıklamalar yazınız.
+
+a = 0 # İnt, integer yani tam sayilari ifade eder.
+a = 210059641234 # long turunde bir sayidir, uzun tam sayilari ifade eder.
+a = 3.14 # float ondalik sayilari ifade eder.
+a = "Hello World!" # str , string ; karakterlerden olusan dizileri temsil eder. Kisaca metinsel veriler.
+a = True # bool True veya False degerini alir dogru veya yanlis olan veri kontrol eder. Karar yapilarinda kullanilir.
+a = complex(3j) # Karmaşık sayılar için kullanılır. tam sayıları karmaşık sayıya dönüştürür.
+a = ["Hello","World"] # Array; liste, dizi  yapısı içerisinde birden fazla eleman tutabilir.
+a = list(("Merhaba")) # liste bu sekilde de kullanilabilir.
+a = (1,2,3) # tuple (demet) demetlerde ekleme çıkarma mevcut değildir.
+a = {1,2,3} # set veri tipi aynı tipteki verileri birden fazla depolamak içindir.
+a = {"brand" : "Ford", "model" : "Mustang", "year":1964} # dictionaries (kutuphaneler), anahtar kilit mantığı ile çalışır. Anahtara karşılık gelen bir veri vardir. 
+
+# SORU 2 : Kodlama.io sitesinde değişken olarak kullanıldığını düşündüğünüz verileri, veri tipleriyle birlikte örneklendiriniz.
+
+a = "Odev 1" #baslik olarak verilmistir str tipinde bir degiskendir.
+a = 100 #tamamlanma yuzdesi int bir degerdir.
+
+# SORU 3 : Kodlama.io sitesinde şart blokları kullanıldığını düşündüğünüz kısımları örneklendiriniz ve Python dilinde bu örnekleri koda dökünüz.
+
+# Kursa kayıt olmak için tıklandığında true veya false döndürür ve kayıt işlemi yapılır.
+derse_kayitli_mi = False
+if(derse_kayitli_mi):
+    print("Derse zaten kayitlisiniz.")
+else:
+    print("Derse kayitli degilsiniz.")
